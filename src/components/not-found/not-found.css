@@ -1,0 +1,11 @@
+.not-found-container {
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    padding: 5px 10px;
+    margin: 5px auto;
+    font-weight: bold;
+    justify-content: center;
+}

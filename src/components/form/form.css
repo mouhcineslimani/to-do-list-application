@@ -1,0 +1,36 @@
+.form-container {
+    margin: 10px auto;
+    width: 100%;
+    display: flex;
+}
+
+.form-error-message {
+    margin: 15px;
+    background-color: rgb(237, 159, 159);
+    padding: 5px;
+    text-align: center;
+    color: black;
+    width: 360px !important;
+}
+
+.form-container .task-input-form {
+    margin-left: 14px;
+    width: 332px;
+    text-align: center;
+    border: 3px solid lightblue;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.task-input-form:focus {
+    outline: none;
+}
+
+.form-container .task-img-form {
+    width: 20px;
+    border: solid 1px lightblue;
+    padding: 5px;
+    background: lightblue;
+    cursor: pointer;
+}

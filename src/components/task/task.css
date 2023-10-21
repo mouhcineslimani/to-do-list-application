@@ -1,0 +1,30 @@
+.task-container {
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    padding: 5px 10px;
+    margin: 5px auto;
+}
+
+.task-actions {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.task-actions>.icon {
+    width: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.task-title {
+    width: 100%;
+    cursor: pointer;
+}
+
+.task-completed {
+    text-decoration: line-through 2px black;
+}
